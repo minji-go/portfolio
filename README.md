@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=rect&color=auto&&height=150&section=header&text=Portfolio&fontSize=50)
+![header](https://capsule-render.vercel.app/api?type=rect&color=C8EBFA&height=150&section=header&text=Portfolio&fontSize=50)
 <!-- https://github.com/kyechan99/capsule-render -->
 
 # Intro
