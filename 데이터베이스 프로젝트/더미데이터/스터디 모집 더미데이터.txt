@@ -1,0 +1,23 @@
+번호	교육생번호	스터디 주제 번호	스터디 명	스터디 설명	시작날짜	종료날짜	모집인원	이메일	마감여부
+insert into study_recruit values ( );
+
+insert into study_recruit values (1,	43,	3,	환경설정하기,	환경설정 도와주실분 구해요,	<시작날짜>,	<종료날짜>,	2,	tree@naver.com,	x);
+insert into study_recruit values (2,	44,	8,	컴퓨터구조 복습,	컴퓨터구조 복습해요,	<시작날짜>,	<종료날짜>,	2,	fly@naver.com,	x);
+insert into study_recruit values (3,	46,	5,	논리식 공부,	논리식 공부해요,	<시작날짜>,	<종료날짜>,	3,	noeul@naver.com,	x);
+insert into study_recruit values (4,	47,	2,	자료구조 복습하기,	언어별 자료구조 연습하기,	<시작날짜>,	<종료날짜>,	2,	blue@naver.com,	x);
+insert into study_recruit values (5,	35,	1,	자바 환경설정,	자바 환경설정 도와주세요,	<시작날짜>,	<종료날짜>,	3,	yoon@naver.com,	x);
+insert into study_recruit values (6,	33,	3,	서버연결,	오라클 서버 연결 해주실분,	<시작날짜>,	<종료날짜>,	4,	sea@naver.com,	x);
+insert into study_recruit values (7,	50,	18,	os이론 설명,	os이론 설명 부탁드려요,	<시작날짜>,	<종료날짜>,	1,	son@naver.com,	x);
+insert into study_recruit values (8,	39,	23,	딥러닝 맛보기,	딥러닝 가볍게 공부해요,	<시작날짜>,	<종료날짜>,	3,	grass@naver.com,	x);
+insert into study_recruit values (9,	28,	9,	웹 프로젝트,	간단한 프로젝트 같이 만들어요,	<시작날짜>,	<종료날짜>,	4,	park@naver.com,	o);
+insert into study_recruit values (10,	51,	4,	디지털신호 이론,	디지털 신호 이론 복습해요,	<시작날짜>,	<종료날짜>,	3,	win@naver.com,	x);
+insert into study_recruit values (11,	52,	30,	프론트엔드,	프론트엔드 복습하실분,	<시작날짜>,	<종료날짜>,	4,	one@naver.com,	x);
+insert into study_recruit values (12,	53,	3,	오라클 복습,	ansi SQL 복습,	<시작날짜>,	<종료날짜>,	3,	min@naver.com,	x);
+insert into study_recruit values (13,	54,	7,	알고리즘,	알고리즘 공부해요,	<시작날짜>,	<종료날짜>,	5,	moon@naver.com,	x);
+insert into study_recruit values (14,	48,	11,	객체지향,	객체지향 언어 설계하기,	<시작날짜>,	<종료날짜>,	4,	jang@naver.com,	x);
+insert into study_recruit values (15,	32,	1,	자바 예제,	자바 예제 같이 풀어요,	<시작날짜>,	<종료날짜>,	3,	nabom@naver.com,	x);
+insert into study_recruit values (16,	42,	2,	자료구조 복습하기,	자바 자료구조 복습해요,	<시작날짜>,	<종료날짜>,	2,	jandee@naver.com,	x);
+insert into study_recruit values (17,	49,	9,	웹 프로젝트,	프로젝트 만드실분 구합니다,	<시작날짜>,	<종료날짜>,	4,	seo@naver.com,	x);
+insert into study_recruit values (18,	41,	1,	자바 복습,	자바 예제 풀기,	<시작날짜>,	<종료날짜>,	3,	kim@naver.com,	o);
+insert into study_recruit values (19,	38,	3,	오라클 복습,	Pl SQL 복습,	<시작날짜>,	<종료날짜>,	2,	winter@naver.com,	o);
+insert into study_recruit values (20,	36,	30,	바닐라js,	바닐라js 같이 공부해요,	<시작날짜>,	<종료날짜>,	3,	malee@naver.com,	x);

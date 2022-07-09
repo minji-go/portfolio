@@ -1,0 +1,104 @@
+-- 적립금(tblPoint)
+-- 적립금 - 구매 적립
+
+create sequence seqPoint;
+
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 1, 1, 126500 * 0.03, '2022-02-17');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 2, 1, 85100 * 0.03, '2020-04-14');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 3, 1, 112400 * 0.03, '2020-03-25');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 4, 1, 88800 * 0.03, '2020-07-18');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 5, 1, 126500 * 0.03, '2022-04-12');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 6, 1, 88800 * 0.03, '2022-02-11');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 7, 1, 126500 * 0.03, '2021-10-01');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 8, 1, 70800 * 0.03, '2021-10-15');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 9, 1, 79900 * 0.03, '2021-03-30');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 10, 1, 126500 * 0.03, '2020-03-26');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 11, 1, 88800 * 0.03, '2021-10-22');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 12, 1, 78600 * 0.03, '2021-11-30');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 13, 1, 88800 * 0.03, '2021-07-27');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 14, 1, 70800 * 0.03, '2020-03-27');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 15, 1, 112400 * 0.03, '2022-04-13');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 16, 1, 100700 * 0.03, '2021-09-02');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 17, 1, 91800 * 0.03, '2021-04-02');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 18, 1, 92000 * 0.03, '2021-03-18');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 19, 1, 82700* 0.03, '2021-11-17');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 20, 1, 79900 * 0.03, '2021-08-30');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 21, 1, 79900 * 0.03, '2020-10-15');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 22, 1, 100900 * 0.03, '2021-12-01');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 23, 1, 64700 * 0.03, '2021-07-26');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 24, 1, 70800 * 0.03, '2022-03-15');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 25, 1, 100700 * 0.03, '2022-04-01');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 26, 1, 88800 * 0.03, '2021-10-22');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 27, 1, 86600 * 0.03, '2021-08-04');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 28, 1, 63200 * 0.03, '2021-11-18');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 29, 1, 93100 * 0.03, '2021-06-22');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 30, 1, 112400 * 0.03, '2021-05-04');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 31, 1, 93100* 0.03, '2021-09-02');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 32, 1, 126500 * 0.03, '2020-06-25');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 33, 1, 70800 * 0.03, '2022-02-23');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 34, 1, 126500 * 0.03, '2021-12-18');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 35, 1, 84200 * 0.03, '2022-01-22');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 36, 1, 80300 * 0.03, '2020-08-28');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 37, 1, 112400 * 0.03, '2021-03-10');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 38, 1, 97000 * 0.03, '2021-11-27');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 39, 1, 82700 * 0.03, '2021-07-06');
+
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 46, 1, 56600 * 0.03, '2021-11-17');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 46, 1, 55800 * 0.03, '2021-11-23');
+
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 47, 1, 89300 * 0.03, '2021-04-22');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 47, 1, 11600 * 0.03, '2021-05-01');
+
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 48, 1, 49400 * 0.03, '2020-05-13');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 48, 1, 45400 * 0.03, '2020-05-19');
+
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 49, 1, 89300 * 0.03, '2020-08-15');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 49, 1, 22100 * 0.03, '2020-08-20');
+
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 50, 1, 104200 * 0.03, '2022-03-31');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 2, 1, 82500 * 0.03, '2021-12-31');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 1, 1, 79900 * 0.03, '2022-03-03');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 4, 1, 88800 * 0.03, '2021-08-28');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 7, 1, 112400 * 0.03, '2022-03-19');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 10, 1, 79900 * 0.03, '2022-03-29');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 13, 1, 126500 * 0.03, '2020-08-18');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 16, 1, 70800 * 0.03, '2021-12-13');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 19, 1, 126500 * 0.03, '2022-02-16');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 22, 1, 88800 * 0.03, '2022-05-21');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 25, 1, 78600 * 0.03, '2020-03-17');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 28, 1, 99000 * 0.03, '2022-04-20');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 1, 1, 88800 * 0.03, '2021-11-16');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 5, 1, 84900 * 0.03, '2021-03-09');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 9, 1, 126500 * 0.03, '2022-02-17');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 13, 1, 88800 * 0.03, '2020-08-19');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 17, 1, 104200 * 0.03, '2021-02-16');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 21, 1, 88800 * 0.03, '2022-05-21');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 25, 1, 64500 * 0.03, '2022-01-19');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 29, 1, 109400 * 0.03, '2021-09-16');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 33, 1, 104200 * 0.03, '2022-05-13');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 37, 1, 88800 * 0.03, '2022-05-03');
+
+
+-- 적립금 - 리뷰 적립
+-- 배송 완료시부터 리뷰 남기기 가능 + 리뷰 남김 + 구매 확정 시(배송완료 7일 후) 리뷰 적립금 500포인트 적립
+
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 4, 2, 500, '2020-07-18');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 10, 2, 500, '2020-03-26');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 13, 2, 500, '2021-07-27');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 16, 2, 500, '2021-09-02');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 16, 2, 500, '2021-09-02');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 18, 2, 500, '2021-03-18');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 18, 2, 500, '2021-03-18');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 20, 2, 500, '2021-08-30');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 20, 2, 500, '2021-08-30');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 21, 2, 500, '2020-10-15');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 21, 2, 500, '2020-10-15');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 23, 2, 500, '2021-07-26');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 4, 2, 500, '2021-08-27');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 22, 2, 500, '2022-05-21');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 1, 2, 500, '2021-11-16');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 1, 2, 500, '2021-11-16');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 9, 2, 500, '2022-02-17');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 13, 2, 500, '2020-08-19');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 25, 2, 500, '2022-01-19');
+insert into tblPoint(seq, memberSeq, pCategorySeq, point, savedate) values (seqPoint.nextVal, 37, 2, 500, '2022-05-03');
