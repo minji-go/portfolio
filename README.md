@@ -1,48 +1,55 @@
-![header](https://capsule-render.vercel.app/api?type=rect&color=C8EBFA&height=150&section=header&text=Portfolio&fontSize=50)
+![header](https://capsule-render.vercel.app/api?type=rect&color=C8EBFA&height=200&section=header&text=Resume&fontSize=50)
 <!-- https://github.com/kyechan99/capsule-render -->
 
 # Intro
-> personal prortfolio
+> 고민지
+
+personal prortfolio
 
 # Contact
+- 연락처: 010-2942-9972
 - 이메일: kohminji10@gmail.com
 - 깃헙: https://github.com/Minji-Ko
 
 # Tech Stack
-- Java
-- Oracle
-- HTML
-- CSS
-- JavaScript
+- Langague : Java 11
+- DataBase: OracleDB
+- Bank-end : Servlet, JSP, Spring
+- Front-end: HTML, CSS, JavaScript
 
 # Project
-### 1️⃣ [쇼핑몰 토이 프로젝트](https://github.com/Minji-Ko/...)
-> 쇼핑몰 운영 프로그램 데이터베이스 구축 및 웹사이트 구현 (팀 프로젝트 + 개인 프로젝트)  
-> 개발 기간: 2022. 06. 01 ~ 2022. 06. 12
-> 기술 스택:  
-> Oracle 11g / HTML, CSS, JavaScript / Java 11 / JSP, Servlet 
-> [프로젝트 상세 설명](https://github.com/Minji-Ko/...)
+### 1️⃣ 반려동물 케어
 
+### 2️⃣ 신발 쇼핑몰 통합 관리
+- 쇼핑몰 운영 프로그램 데이터베이스 구축 및 웹사이트 구현
+- (토이 프로젝트) 팀프로젝트 (2명)
+- 2022.06. 01 ~ 2022.06.12
+- Oracle 11g 
+- [쇼핑몰 프로젝트 상세 설명](https://github.com/Minji-Ko/database-project-shop)
 
-### 2️⃣ [교육센터 시스템 데이터베이스 프로젝트]()
-> 교육센터 운영 프로그램 제작 (팀 프로젝트)  
-> 개발 기간: 2022.05.11 ~ 2022.05.20 
->  
-> 기술 스택:  Oracle 11g
-> 
-> [프로젝트 상세 설명](https://github.com/Integerous/goQuality) 참고
+### 3️⃣ 교육센터 시스템 데이터베이스 프로젝트
+- 교육센터 운영 프로그램 제작 
+- 팀프로젝트 (6명)
+- 2022.05.11 ~ 2022.05.20 
+- Oracle 11g
+- [교육센터 운영 시스템 상세 설명](https://github.com/Minji-Ko/database-project-edu)
 
-### 3️⃣ [카페 키오스크 토이 프로젝트]()
-> 테이크 아웃 카페 키오스크 프로그램  (팀 프로젝트)  
-> 개발 기간: 2022.04.25 ~ 2022.05.01, 2022.05.22 ~ 2022.05.27 (12일)
->  
-> 기술 스택: Java 11 / Eclipse
->  
->[프로젝트 상세 설명](https://github.com/Integerous/goQuality) 참고
+### 4️⃣ 카페 키오스크
+- 테이크 아웃 카페 키오스크 프로그램  
+- (토이 프로젝트) 팀 프로젝트(3명)
+- 2022.04.25 ~ 2022.05.01, 2022.05.22 ~ 2022.05.2 (12일)  
+- Java 11 
+- [키오스크 프로젝트 상세 설명](https://github.com/Minji-Ko/console-project-cafe)
 
-### 4️⃣ [치과 시스템 콘솔 프로젝트](https://github.com/Minji-Ko/...)
-> 치과 통합 관리 및 예약 시스템 (팀 프로젝트)  
-> 개발 기간: 2022.04.07 ~ 2022.04.18  
-> 기술 스택:  
-> Java 11 / Eclipse  
-> [프로젝트 상세 설명](https://github.com/Minji-Ko/...)
+### 5️⃣ 치과 예약 및 통합 관리 시스템 
+- 치과 통합 관리 및 예약 시스템 (팀 프로젝트)  
+- 2022.04.07 ~ 2022.04.18  
+- Java 11 / Eclipse  
+- [치과 통합관리 시스템 상세 설명](https://github.com/Minji-Ko/console-project-dentist)
+
+# Certification
+- 2022.06.17 정보처리기사
+
+# Education
+- 2022.03.03 ~ 2022.08.12 쌍용교육센터 AWS 클라우드 활용 자바 Full-Stack 개발자 양성 과정
+- 2017.03.02 ~ 2022.02.15 중앙대학교 경영학과 (학사)

@@ -60,7 +60,7 @@ public class PatientMain {
 				} else {
 					System.out.printf("%s님, 검진일(%s)까지 %d일 남았습니다!\n", Login.currentPatient.getName()
                             , hasAppointment().getDate()
-                            , aaa());
+                            , daysBefore());
 					System.out.println("------------------------------------------");
 					System.out.println();
 				}
@@ -213,7 +213,7 @@ public class PatientMain {
 		return null;
 	}
 	
-	   private static int aaa() {
+	   private static int daysBefore() {
 	         String[] date = hasAppointment().getDate().split("-");
 	         
 	         LocalDate theDate = LocalDate.of(Integer.parseInt(date[0]), Integer.parseInt(date[1]), Integer.parseInt(date[2]));
