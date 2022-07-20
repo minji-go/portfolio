@@ -40,7 +40,7 @@ begin
          
     end if;
 end;
-
+ 
 
 
 declare
@@ -63,13 +63,40 @@ begin
     
 end;
 
+-- 테이블 오타수정
+alter table tblOpen rename column opneseq to openseq;
+alter table tblHosDate rename column opneseq to openseq;
+
+-- 시퀀스 생성
+create sequence seqHosReview start with 2;
+create sequence seqResHos start with 2;
 
 
 
-select s.name, g.name from tblSG sg
-inner join tblSi s on sg.siseq = s.siseq 
-inner join tblGu g on sg.guseq = g.guseq;
+-- 데이터에서 평일, 주말 제거!!!
+create sequence seqHosDate start with 994;
+update tblHosDate set openseq = 6 where openseq = 9;
+insert into tblHosDate values (SEQHOSDATE.nextval, 1, 2);
+insert into tblHosDate values (SEQHOSDATE.nextval, 1, 3);
+insert into tblHosDate values(SEQHOSDATE.nextval, 1, 4);
+insert into tblHosDate values(SEQHOSDATE.nextval, 1, 5);
+insert into tblHosDate values(SEQHOSDATE.nextval, 1, 6);
+insert into tblHosDate values(SEQHOSDATE.nextval, 2, 2);
+insert into tblHosDate values(SEQHOSDATE.nextval, 2, 3);
+insert into tblHosDate values(SEQHOSDATE.nextval, 2, 4);
+insert into tblHosDate values(SEQHOSDATE.nextval, 2, 5);
 
 
 
-            
+-- 병원 진료 예약
+alter table tblResHos MODIFY visitseq DEFAULT 3;
+
+
+-- Select문
+select to_char(resdate, 'yy-mm-dd hh24:mi'), r.* from tblResHos r;
+select * from tblOpen;
+select * from tblHosDate;
+select * from tblVisit;
+
+
+

@@ -372,7 +372,7 @@ public class DiagnosisDAO {
 		}
 	}
 
-	public HosReviewDTO getMaxSeqReview() {
+	public HosReviewDTO getTheReview() {
 
 		try {
 			

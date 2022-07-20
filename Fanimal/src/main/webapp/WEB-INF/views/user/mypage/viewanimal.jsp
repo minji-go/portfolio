@@ -30,7 +30,8 @@
                 		<td>${viewdto.name}</td>
                 		<td rowspan="6" colspan="2">
                 			<!-- <div><img src="/fanimal/asset/images/user/animallist/ddol2.jpg" id="aniprofile"></div> -->
-                			<div><img src="/fanimal/files/${viewdto.pic}" id="aniprofile"></div>
+                			<%-- <div><img src="/fanimal/files/${viewdto.pic}" id="aniprofile"></div> --%>
+                			<div style="background-image: url('/fanimal/files/${viewdto.pic}')"></div>
                 		</td>
                 	</tr>
                 	<tr>

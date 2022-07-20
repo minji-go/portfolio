@@ -34,7 +34,7 @@ public class HospitalReviewAdd extends HttpServlet {
 		HosReviewDTO rdto = null;
 		
 		if(result == 1) {
-			rdto  = dao.getMaxSeqReview();
+			rdto  = dao.getTheReview();
 			
 			resp.setCharacterEncoding("UTF-8");
 			resp.setContentType("application/json");

@@ -197,7 +197,7 @@
             	</form>
             	
             	<c:if test="${reviewNum > 10}">
-            	<button class="btn btn-block btn-light btn-lg" ="button" onclick="moreReview();">▼ 더보기</button>
+            	<button class="btn btn-block btn-light btn-lg" onclick="moreReview();">▼ 더보기</button>
             	</c:if>
             	
             	</div>

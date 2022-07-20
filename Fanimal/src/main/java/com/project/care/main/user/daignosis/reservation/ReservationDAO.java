@@ -3,13 +3,17 @@ package com.project.care.main.user.daignosis.reservation;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 
 import com.project.care.DBUtil;
+import com.project.care.DML;
+import com.project.care.Select;
 import com.project.care.dto.AnimalListDTO;
 import com.project.care.dto.HospitalDTO;
 import com.project.care.dto.PurposeDTO;
+import com.project.care.dto.ResHosDTO;
 
 public class ReservationDAO {
 
@@ -51,6 +55,7 @@ public class ReservationDAO {
 			
 			rs.close();
 			pstat.close();
+			DBUtil.close();
 			
 			return list;
 		
@@ -68,7 +73,8 @@ public class ReservationDAO {
 			
 			String sql = "select * from tblPurpose";
 			
-			rs = DBUtil.open().createStatement().executeQuery(sql);
+			stat = DBUtil.open().createStatement();
+			rs = stat.executeQuery(sql);
 			
 			ArrayList<PurposeDTO> list = new ArrayList<PurposeDTO>();
 				
@@ -83,6 +89,8 @@ public class ReservationDAO {
 			
 
 			rs.close();
+			stat.close();
+			DBUtil.close();
 			
 			return list;
 		
@@ -116,6 +124,7 @@ public class ReservationDAO {
 
 			rs.close();
 			pstat.close();
+			DBUtil.close();
 			
 			return list;
 		
@@ -148,6 +157,7 @@ public class ReservationDAO {
 				
 				rs.close();
 				pstat.close();
+				DBUtil.close();
 				
 				return dto;
 			}
@@ -155,6 +165,95 @@ public class ReservationDAO {
 		
 		} catch (Exception e) {
 			System.out.println("ReservationDAO.getAnimal");
+			e.printStackTrace();
+		}
+		
+		return null;
+	}
+
+	public boolean checkUserId(ResHosDTO dto) {
+
+		String sql = "select count(*) as cnt from tblUser where id = (select u.id from tblUserAni a inner join tblUser u on a.useq = u.useq where a.uaseq = ?)";
+		
+		Select pstat = new Select() {
+			
+			@Override
+			public void setParameters(PreparedStatement pstat) throws SQLException {
+				pstat.setString(1, dto.getUaseq());
+			}
+			
+			@Override
+			public Object getResult(ResultSet rs) throws SQLException {
+				
+				if (rs.next()) {
+					return rs.getInt("cnt");
+				}
+				return 0;
+			}
+		};
+		
+		try {
+			
+			int result = (int)pstat.executeQuery(sql);
+			if (result == 1) { return true; }
+			
+		} catch (SQLException e) {
+			System.out.println("ReservationDAO.checkUserId");
+			e.printStackTrace();
+		}
+
+		return false;
+		
+	}
+
+	public int addReservation(ResHosDTO dto) {
+		
+		String sql = "insert into tblResHos values(seqResHos.nextVal, to_date( ? ,'yy-mm-dd hh24:mi'), default, ?, ?, ?, ?, ?)";
+		
+		DML pstat = new DML() {
+			
+			@Override
+			public void setParameters(PreparedStatement pstat) throws SQLException {
+				pstat.setString(1, dto.getResdate());
+				pstat.setString(2, dto.getUniqueness()); 
+				pstat.setString(3, dto.getHpseq());
+				pstat.setString(4, dto.getUaseq());
+				pstat.setString(5, dto.getPseq());
+				pstat.setString(6, dto.getPicture()); 
+				
+			}
+		};
+
+		try {
+			return pstat.executeUpdate(sql);
+		} catch (SQLException e) {
+			System.out.println("ReservationDAO.addReservation");
+			e.printStackTrace();
+			return 0;
+		}
+	}
+
+	public String getRhseq() {
+		
+		try {
+			String sql = "select max(rhseq) as rhseq from tblResHos";
+			
+			stat = DBUtil.open().createStatement();
+			rs = stat.executeQuery(sql);
+			
+			String rhseq = "";
+			if(rs.next()) {
+				rhseq = rs.getString("rhseq");
+			}
+			
+			rs.close();
+			stat.close();
+			DBUtil.close();
+			
+			return rhseq;
+			
+		} catch (SQLException e) {
+			System.out.println("ReservationDAO.getRhseq");
 			e.printStackTrace();
 		}
 		
