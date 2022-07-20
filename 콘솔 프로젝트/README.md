@@ -93,7 +93,6 @@ private  int daysBefore() {
 </br>
 
 ## 5. 트러블 슈팅 및 경험
-###  📌 진료 예약 대기 서비스의 구현
 <details>
 <summary>csv형식의 데이터 파일 오류로 인해 발생하는 nullpointerException</summary>
 <div markdown="1">
