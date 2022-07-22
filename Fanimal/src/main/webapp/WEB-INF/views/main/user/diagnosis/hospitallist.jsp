@@ -10,21 +10,25 @@
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
 <style>
+#hospitallist { font-size: 14px; }
 .hospitallist-sigu { display: inline-block; width: 50rem; }
 .hospitallist-sigu select {
 	display: inline;
 	margin: 100px 10px 20px 15px;
+	font-size: 14px;
 }
 .hospitallist-align { width: 35rem; float:right; }
 .hospitallist-align select {
 	display: inline;
 	margin-top: 100px;
 	float:right;
+	font-size: 14px;
 } 
 .hospitallist-search input {
 	display: inline-block;
 	width: 300px;
 	margin-right: 10px;
+	font-size: 14px;
 }
 .hospitallist-search {
 	width: 400px;
@@ -49,7 +53,8 @@
 	border-color: #AAA;
 }
 
-.hospitalist-list { background-color: white;}
+.hospitalist-list { background-color: white;  margin-top: 20px;}
+.hospitalist-list tr:nth-child(1) { background-color: gold; height: 40px; }
 .hospitalist-list th, .hospitalist-list td { text-align: center; }
 .hospitalist-list th:nth-child(1) { width: 90px; }
 .hospitalist-list th:nth-child(2) { width: 180px; }
@@ -126,22 +131,22 @@
 				
 				<c:if test="${endPage > 1}">
 				<nav aria-label="Page navigation example" class="hospitallist-page">
-				  <ul class="pagination">
+				  <ul class="pagination justify-content-center">
 				    <li class="page-item">
-				      <a class="page-link badge-pill" onclick="movePage(${dto.page - 1});" aria-label="Previous">
+				      <a class="page-link rounded-pill" onclick="movePage(${dto.page - 1});" aria-label="Previous">
 				        <span aria-hidden="true">&laquo;</span>
 				      </a>
 				    </li>
 				    <c:forEach var="i" begin="${beginPage}" end="${endPage}">
 				    <c:if test="${i == dto.page}">
-				    <li class="page-item active"><a class="page-link badge-pill" onclick="movePage(${i});">${i}</a></li>
+				    <li class="page-item active"><a class="page-link rounded-pill" onclick="movePage(${i});">${i}</a></li>
 				    </c:if>
 				    <c:if test="${i != dto.page}">
-				    <li class="page-item"><a class="page-link badge-pill" onclick="movePage(${i});">${i}</a></li>
+				    <li class="page-item"><a class="page-link rounded-pill" onclick="movePage(${i});">${i}</a></li>
 				    </c:if>
 				    </c:forEach>
 				    <li class="page-item">
-				      <a class="page-link badge-pill" onclick="movePage(${dto.page + 1});" aria-label="Next">
+				      <a class="page-link rounded-pill" onclick="movePage(${dto.page + 1});" aria-label="Next">
 				        <span aria-hidden="true">&raquo;</span>
 				      </a>
 				    </li>

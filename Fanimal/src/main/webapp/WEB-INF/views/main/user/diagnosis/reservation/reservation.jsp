@@ -226,7 +226,7 @@
 		      		</div>
 			  		
 				 	<h4>증상 사진</h4>
-			  		<input type="file" name="picture" class="form-control">
+			  		<input type="file" name="picture" class="form-control" accept="image/*">
 			  		
 			  		
 			  		<h4>특이 사항</h4>
@@ -284,7 +284,7 @@
 	
 		
 		$('#reservation-datepicker').datepicker({
-			minDate: new Date(),
+			minDate: "+1d",
 		  	maxDate: "+1m",
 		  	 monthNames: [ "1월", "2월", "3월", "4월", "5월", "6월", "7월", "8월", "9월", "10월", "11월", "12월" ],
 		  	dayNamesMin: [  "일" , "월", "화", "수", "목", "금", "토"],

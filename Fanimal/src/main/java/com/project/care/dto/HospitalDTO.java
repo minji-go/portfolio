@@ -28,5 +28,4 @@ public class HospitalDTO {
 	//그외
 	private String avgStar;	//평균별점
 	
-	
 }

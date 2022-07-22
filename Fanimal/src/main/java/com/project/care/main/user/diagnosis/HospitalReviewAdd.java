@@ -21,7 +21,6 @@ public class HospitalReviewAdd extends HttpServlet {
 		
 		HttpSession session = req.getSession();
 		UserDTO auth = (UserDTO)session.getAttribute("auth");
-		
 
 		HosReviewDTO dto = new HosReviewDTO();
 		dto.setId(auth.getId());

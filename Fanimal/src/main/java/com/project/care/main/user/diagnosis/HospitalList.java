@@ -24,6 +24,7 @@ public class HospitalList extends HttpServlet {
 		HttpSession session = req.getSession();
 		UserDTO auth = (UserDTO)session.getAttribute("auth");
 		
+		
 		HospitalListDTO dto = new HospitalListDTO();
 		String si = req.getParameter("si");
 		String gu = req.getParameter("gu");
@@ -48,7 +49,9 @@ public class HospitalList extends HttpServlet {
 			dto.setSigu(si + " " + gu);
 		} else if (!si.equals("all")) {
 			dto.setSigu(si);
-		} 
+		} else {
+			dto.setSigu("");
+		}
 		
 		//거리순 정렬
 		if (auth != null) {
@@ -76,11 +79,9 @@ public class HospitalList extends HttpServlet {
 		
 		if (page != null) { nowPage = Integer.parseInt(page); }
 		
-		if (nowPage < 1) {
-			nowPage = 1;
-		} else if (nowPage > totalPage) {
-			nowPage = totalPage;
-		}
+		if (nowPage > totalPage) { nowPage = totalPage; }
+		if (nowPage < 1) { nowPage = 1; }
+		
 		dto.setPage(String.valueOf(nowPage));
 		
 		int begin = onePageNum * (nowPage - 1) + 1;
@@ -92,7 +93,8 @@ public class HospitalList extends HttpServlet {
 		int beginPage = ((nowPage-1) / pageBarNum) *  pageBarNum + 1;
 		int endPage = beginPage + pageBarNum - 1;
 		if (endPage > totalPage) { endPage = totalPage; }
-				
+			
+		
 		//DAO
 		ArrayList<HospitalDTO> list = dao.getList(dto);
 		ArrayList<String> silist = dao.getSi();
