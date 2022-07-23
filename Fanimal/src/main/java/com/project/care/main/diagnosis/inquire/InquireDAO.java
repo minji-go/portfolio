@@ -133,6 +133,7 @@ public class InquireDAO {
 				qdto.setAttachFile(rs.getString("attachFile"));
 				qdto.setNickname(rs.getString("nickname"));
 				qdto.setAnswer(rs.getString("answer"));
+				qdto.setId(rs.getString("id"));
 				qdto.setType(rs.getString("type"));
 				qdto.setSecret(rs.getString("secret"));
 				
@@ -151,6 +152,84 @@ public class InquireDAO {
 		}
 		
 		return null;
+	}
+
+	public QuesDTO getQues(String hqseq) {
+		
+		String sql = "select * from vwQues where hqseq = ?";
+				
+		Select pstat = new Select() {
+			
+			@Override
+			public void setParameters(PreparedStatement pstat) throws SQLException {
+				pstat.setString(1, hqseq);
+			}
+			
+			@Override
+			public Object getResult(ResultSet rs) throws SQLException {
+				
+				QuesDTO dto = new QuesDTO();
+				
+				if (rs.next()) {
+					dto.setTitle(rs.getString("title"));
+					dto.setPostdate(rs.getString("postdate"));
+					dto.setContent(rs.getString("content"));
+					dto.setAttachFile(rs.getString("attachFile"));
+					dto.setSecret(rs.getString("secret"));
+					dto.setNickname(rs.getString("nickname"));
+				}
+				
+				return dto;
+			}
+		};
+		
+		try {
+			return (QuesDTO) pstat.executeQuery(sql);
+			
+		} catch (Exception e) {
+			System.out.println("InquireDAO.getQues");
+			e.printStackTrace();
+			return null;
+		}
+	}
+
+	public QuesAnsDTO getAns(String hqseq) {
+		
+
+		String sql = "select a.*, (select h.hosname from tblCompany c inner join tblHospital h on c.cseq = h.cseq where c.id = a.id) from tblQuesAns a where hqseq = ?";
+				
+		Select pstat = new Select() {
+			
+			@Override
+			public void setParameters(PreparedStatement pstat) throws SQLException {
+				pstat.setString(1, hqseq);
+			}
+			
+			@Override
+			public Object getResult(ResultSet rs) throws SQLException {
+				
+				QuesAnsDTO dto = new QuesAnsDTO();
+				
+				if (rs.next()) {
+					dto.setContent(rs.getString("content"));
+					dto.setNickname(rs.getString("nickname"));
+					dto.setRegdate(rs.getString("regdate"));
+					dto.setAttachFile(rs.getString("attachFile"));
+				}
+				
+				return dto;
+			}
+		};
+		
+		try {
+			return (QuesAnsDTO) pstat.executeQuery(sql);
+			
+		} catch (Exception e) {
+			System.out.println("InquireDAO.getQues");
+			e.printStackTrace();
+			return null;
+		}
+		
 	}
 
 }

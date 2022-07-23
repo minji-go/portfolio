@@ -93,7 +93,7 @@
 	        			<th>비밀글</th>
 	        		</tr>
 	        		<c:forEach items="${list}" var="ques">
- 	        		<tr>
+ 	        		<tr onclick="viewQues()">
 	        			<td>${ques.hqseq}</td>
 	        			<td>
 	        				<c:if test="${ques.type == '0'}">
@@ -132,10 +132,10 @@
 	        	<input type="hidden" name="hpseq" value="${dto.hpseq}">
 	        	
 	        	<c:if test="${type == '0'}">
-	        	<button class="btn btn-success list-add">공지글 쓰기</button>
+	        	<button type="button" class="btn btn-success list-add" onclick="move('/inquire/hospitalnoticeadd.do?');">공지글 쓰기</button>
 				</c:if>
 				<c:if test="${type == '1'}">
-	        	<button class="btn btn-success list-add">문의글 쓰기</button>
+	        	<button type="button" class="btn btn-success list-add" onclick="move('/inquire/hospitalinquireadd.do?');">문의글 쓰기</button>
 				</c:if>
 	        	
 	        	<c:if test="${dto.QEndPage > 1}">
@@ -199,6 +199,28 @@
 			location.href = '/fanimal/inquire/hospitalinquirelist.do?si=${hdto.si}&gu=${hdto.gu}&align=${hdto.align}&search=${hdto.search}&page=${hdto.page}&hpseq=${dto.hpseq}&qSearchKey=' + qSearchKey + '&qSearchValue=' + qSearchValue + '&qPage=' + page;
 	 	}
 		
+		function move(path) {
+			
+			let qSearchKey = $('#inquirelist select[name=qSearchKey]').val();
+			let qSearchValue = $('#inquirelist input[name=qSearchValue]').val();
+			
+			location.href = '/fanimal'+ path +'si=${hdto.si}&gu=${hdto.gu}&align=${hdto.align}&search=${hdto.search}&page=${hdto.page}&hpseq=${dto.hpseq}&qSearchKey=' + qSearchKey + '&qSearchValue=' + qSearchValue + '&qPage=${dto.QPage}';
+		}
+		
+		function viewQues() {
+		
+			let qSearchKey = $('#inquirelist select[name=qSearchKey]').val();
+			let qSearchValue = $('#inquirelist input[name=qSearchValue]').val();
+			let secret = $(event.target).children().last().text();
+			let hqseq = $(event.target).children().first().text();
+			
+			if( secret != '' && !(${type} == '0' || '${dto.id}' == '${id}')) {
+				alert('비밀글은 작성자만 접근할 수 있습니다.');
+				return;
+			}
+			
+			location.href = '/fanimal/inquire/hospitalinquireview.do?hqseq='+hqseq+'&si=${hdto.si}&gu=${hdto.gu}&align=${hdto.align}&search=${hdto.search}&page=${hdto.page}&hpseq=${dto.hpseq}&qSearchKey=' + qSearchKey + '&qSearchValue=' + qSearchValue + '&qPage=${dto.QPage}';
+		}
 		
 	
 	</script>
