@@ -395,8 +395,8 @@ MenuCategory.java와 같이 다른 기능에서 공통으로 사용되는 코드
 - 해결: CSV형식의 파일을 엑셀로 변환하여 시각적으로 확인하여 조금 더 발견하기 쉽도록 하였다. 그러나 여전히 프로그램이 검증하는게 아니라 RDBMS의 필요성을 느꼈다.
 
 ## 8. 문서 작업 자료
-- [기획서](https://github.com/Minji-Ko/portfolio/blob/main/%EC%BD%98%EC%86%94%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/document/1.%20%EA%B8%B0%ED%9A%8D%EC%84%9C.docx)
-- [요구분석서](https://github.com/Minji-Ko/portfolio/blob/main/%EC%BD%98%EC%86%94%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/document/2.%20%EC%9A%94%EA%B5%AC%20%EB%B6%84%EC%84%9D%EC%84%9C.docx)
+- [기획서]()
+- [요구분석서]()
 - [순서도](https://github.com/Minji-Ko/portfolio/blob/main/%EC%BD%98%EC%86%94%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/document/3.%20%EC%88%9C%EC%84%9C%EB%8F%84.png)
 - [화면설계서](https://github.com/Minji-Ko/portfolio/blob/main/%EC%BD%98%EC%86%94%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/document/4.%20%ED%99%94%EB%A9%B4%EC%84%A4%EA%B3%84%EC%84%9C.pptx)
 - [기능명세서](https://github.com/Minji-Ko/portfolio/blob/main/%EC%BD%98%EC%86%94%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/document/5.%20%EA%B8%B0%EB%8A%A5%EB%AA%85%EC%84%B8%EC%84%9C.docx)
