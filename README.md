@@ -19,6 +19,11 @@ personal prortfolio
 
 # Project
 ### 1️⃣ 반려동물 케어
+- 반려동물 통합 케어 및 커뮤니티  프로그램
+- 팀프로젝트(6명)
+- 2022. 07. 11 ~ 2022. 07. 22
+- Oracle 11g / HTML5, CSS, JavaScript / Java 11 / JSP, Servlet
+- [반려동물케어 프로젝트 상세 설명](https://github.com/Minji-Ko/portfolio/tree/main/Fanimal)
 
 ### 2️⃣ 신발 쇼핑몰 통합 관리
 - 쇼핑몰 운영 프로그램 데이터베이스 구축 및 웹사이트 구현
