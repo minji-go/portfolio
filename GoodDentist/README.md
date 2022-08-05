@@ -8,7 +8,7 @@
 - Java 11
 
 ## 3. ERD 설계
-![](https://github.com/Minji-Ko/portfolio/blob/main/%EC%BD%98%EC%86%94%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/document/6.%20ERD.png)
+![](https://github.com/Minji-Ko/portfolio/blob/main/GoodDentist/%EB%AC%B8%EC%84%9C/6.%20ERD.png)
 
 ## 4. 핵심 기능
 ### 📌  환자의 진료 예약 및 대기 기능 

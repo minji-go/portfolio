@@ -9,7 +9,7 @@
 - Oracle Cloud, Google Drive, ERD Cloud
 
 ## 3. ERD 설계
-![](https://github.com/Minji-Ko/portfolio/blob/main/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/document/1%EC%A1%B0%20ERD.png)
+![](https://github.com/Minji-Ko/portfolio/blob/main/ITAcademy/%EB%AC%B8%EC%84%9C/3.%20ERD.png)
 
 ## 4. 핵심 기능
 ### 📌  1.	교육생의 출결 기록 및  출결 상황 조회
@@ -219,7 +219,9 @@ end;
 </br>
 
 ## 6. 구현 화면
+<img src="https://github.com/Minji-Ko/portfolio/blob/main/ITAcademy/%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B0%95%EC%9D%98%EC%8A%A4%EC%BC%80%EC%A4%84%EC%A1%B0%ED%9A%8C.png" width="300" height="300"/> <img src="https://github.com/Minji-Ko/portfolio/blob/main/ITAcademy/%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B5%90%EC%9C%A1%EC%83%9D%EC%84%B8%EB%B6%80%EC%B6%9C%EA%B2%B0%EC%A1%B0%ED%9A%8C.png" width="300" height="300"/> 
 
+<img src="https://github.com/Minji-Ko/portfolio/blob/main/ITAcademy/%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B5%90%EC%9C%A1%EC%83%9D%EC%A0%95%EB%B3%B4%EC%A1%B0%ED%9A%8C.png" width="300" height="300"/> <img src="https://github.com/Minji-Ko/portfolio/blob/main/ITAcademy/%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B5%90%EC%9C%A1%EC%83%9D%EC%B6%9C%EA%B2%B0%EC%A1%B0%ED%9A%8C.png" width="300" height="300"/> 
 
 
 ## 7. 회고 / 느낀점

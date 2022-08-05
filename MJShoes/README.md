@@ -9,7 +9,7 @@
 - Oracle Cloud, Google Drive, ERD Cloud
 
 ## 3. ERD 설계
-![](https://github.com/Minji-Ko/portfolio/blob/main/%ED%86%A0%EC%9D%B4%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20(%EC%87%BC%ED%95%91%EB%AA%B0)/document/2.%20ERD/%EC%87%BC%ED%95%91%EB%AA%B0%20ERD.png)
+![](https://github.com/Minji-Ko/portfolio/blob/main/MJShoes/%EB%AC%B8%EC%84%9C/2.%20ERD.png)
 
 ## 4. 핵심 기능
 ### 📌  1.	고객의 상품 주문 및 결제와 배송 관리

@@ -11,10 +11,10 @@
 - JSP, Servlet
 
 ## 3. ERD 설계
-![]()
+![](https://github.com/Minji-Ko/portfolio/blob/main/Fanimal/%EB%AC%B8%EC%84%9C/3.%20ERD.png)
 
 ## 4. 핵심 기능
-### 📌  1.	동물 병원 정보 조회 및 진료 예약하기
+### 📌  1.	동물 병원 정보 조회 및 진료 예약
 - <b>목적</b> 
     - 보호자의 주소로 부터 가까운 순으로 병원정보를 조회하고, 등록된 반려동물의 진료를 예약할 수 있다.
 - <b>기능</b> 
@@ -28,43 +28,59 @@
 <div markdown="1">
 
 ---
-#### 1. ajax로 동물 병원 리뷰확인하기
+#### 1.  request get parameter를 이용한 동물병원 조회
 
-~~~SQL
+~~~java
 ~~~
+
+#### 2. ajax를 사용하여 동물병원 리뷰 조회
+
+~~~java
+~~~
+
 ---
 </div>
 </details> 
 <br> 
 
- ### 📌 2. 특정 상품 정보 조회와 장바구니 담기
+ ### 📌 2. 케어일기 작성 및 조회
 - <b>목적</b> 
-    -  다양한 필터를 사용하여 사용자의 편의에 따라 상품을 조회하고 장바구니에 상품을 담거나 수정 삭제처리를 간단하게 할 수 있다.
+    -  진료예약 후 동물병원에 방문시 관련 기록을 넘겨받아 일기를 작성할 수 있다.
 - <b>기능</b> 
-    1. 카테고리를 선택하여 상품목록을 확인할 수 있다.
-    2. 특정 상품을 선택하여 옵션과 설명을 확인할 수 있다.
-    3. 장바구니에 등록할 수 있다.
-
-
+    1. 예약된 동물병원에 방문하면 케어일기에서 해당 진단서를 선택할 수 있다.
+    2. 해당 진단서를 선택하고 케어일기를 작성할 수 있다.
 
 </br>
 
 ## 5. 트러블 슈팅 및 경험
 <details>
-<summary>join의 사용으로 일부 컬럼의 중복된 데이터가 반복하여 출력되는 문제</summary>
+<summary>ajax 사용으로 리뷰 조회를 할 때 발생한 Uncaught TypeError 오류  </summary>
 <div markdown="1">
-- 중복을 발생시키는 테이블의 조인을 분리하고, Cursor를 두개 사용하여 각각 출력한다.
-
-~~~SQL
-~~~
-
+- slim버전의 jquery를 사용하지 않음으로써 해결하였다.
+- 참조: https://okky.kr/article/624496
 </div>
 </details>
 
 <details>
-<summary>다른 테이블을 참조하여 각각의 레코드를 다른 값으로 update할 때 발생한 오류</summary>
+<summary>ajax로 별점API 사용시  javascript가 호출되지 않는 문제</summary>
 <div markdown="1">
-- update문 작성시 수정하려는 다중컬럼(A, B, C)의 값을 select문으로 select a, b, c from X 와 같이  하나의 서브 쿼리를 사용한다.
+- Document를 참조하여 $('.rateit').rateit(); 을 사용하여 자바스크립트 호출
+- 참조: https://gjunge.github.io/rateit.js/examples/
+</div>
+</details> 
+
+<details>
+<summary>JDBC 사용으로 date 형식의 데이터를 문자열로 얻은 후 다시 select 쿼리문의 일부로 삽입하였을 경우 발생한 오류 </summary>
+<div markdown="1">
+- select 쿼리문의 일부로 삽입할 때 to_date를 사용하여 to_date('22-07-11 00:00:00', 'yy-mm-dd hh24:mi:ss')와 같이 삽입하였다.
+</div>
+</details> 
+
+<details>
+<summary>lombok 사용시 멤버변수의 첫번째 혹은 두번째가 대문자일 때  발생하는 javax.el.PropertyNotFoundException:</summary>
+<div markdown="1">
+- el을 적용할 때 변수명의 첫글자를 대문자로 하여 ${pSeq} 대신 ${PSeq}를 사용하였다.
+- 참조: https://jdevil.tistory.com/10
 </div>
 </details> 
 

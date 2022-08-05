@@ -8,7 +8,7 @@
 - Java 11
 
 ## 3. ERD 설계
-![](https://github.com/Minji-Ko/portfolio/tree/main/%ED%86%A0%EC%9D%B4%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20(%ED%82%A4%EC%98%A4%EC%8A%A4%ED%81%AC)/document/ERD.png)
+![](https://github.com/Minji-Ko/portfolio/blob/main/CafeKiosk/%EB%AC%B8%EC%84%9C/3.%20ERD.png)
 
 
 ## 4. 핵심 기능
