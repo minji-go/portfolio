@@ -219,9 +219,7 @@ end;
 </br>
 
 ## 6. 구현 화면
-<img src="https://github.com/Minji-Ko/portfolio/blob/main/ITAcademy/%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B0%95%EC%9D%98%EC%8A%A4%EC%BC%80%EC%A4%84%EC%A1%B0%ED%9A%8C.png" width="300" height="300"/> <img src="https://github.com/Minji-Ko/portfolio/blob/main/ITAcademy/%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B5%90%EC%9C%A1%EC%83%9D%EC%84%B8%EB%B6%80%EC%B6%9C%EA%B2%B0%EC%A1%B0%ED%9A%8C.png" width="300" height="300"/> 
-
-<img src="https://github.com/Minji-Ko/portfolio/blob/main/ITAcademy/%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B5%90%EC%9C%A1%EC%83%9D%EC%A0%95%EB%B3%B4%EC%A1%B0%ED%9A%8C.png" width="300" height="300"/> <img src="https://github.com/Minji-Ko/portfolio/blob/main/ITAcademy/%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B5%90%EC%9C%A1%EC%83%9D%EC%B6%9C%EA%B2%B0%EC%A1%B0%ED%9A%8C.png" width="300" height="300"/> 
+<img src="https://github.com/Minji-Ko/portfolio/blob/main/ITAcademy/%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B0%95%EC%9D%98%EC%8A%A4%EC%BC%80%EC%A4%84%EC%A1%B0%ED%9A%8C.png" width="300" height="300"/> <img src="https://github.com/Minji-Ko/portfolio/blob/main/ITAcademy/%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B5%90%EC%9C%A1%EC%83%9D%EC%84%B8%EB%B6%80%EC%B6%9C%EA%B2%B0%EC%A1%B0%ED%9A%8C.png" width="300" height="300"/> <img src="https://github.com/Minji-Ko/portfolio/blob/main/ITAcademy/%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B5%90%EC%9C%A1%EC%83%9D%EC%A0%95%EB%B3%B4%EC%A1%B0%ED%9A%8C.png" width="300" height="300"/> <img src="https://github.com/Minji-Ko/portfolio/blob/main/ITAcademy/%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B5%90%EC%9C%A1%EC%83%9D%EC%B6%9C%EA%B2%B0%EC%A1%B0%ED%9A%8C.png" width="300" height="300"/> 
 
 
 ## 7. 회고 / 느낀점
@@ -235,10 +233,11 @@ end;
 
 
 ## 8. 문서 작업 자료
-- [요구분석서]()
-- [순서도](https://github.com/Minji-Ko/portfolio/blob/main/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/document/1%EC%A1%B0%20%EC%88%9C%EC%84%9C%EB%8F%84.drawio)
-- [DDL 정의서](https://github.com/Minji-Ko/portfolio/blob/main/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/document/1%EC%A1%B0%20%EA%B5%90%EC%9C%A1%EC%84%BC%ED%84%B0%EA%B4%80%EB%A6%AC%EC%8B%9C%EC%8A%A4%ED%85%9C%20DDL%EC%A0%95%EC%9D%98%EC%84%9C%20.docx)
-- [ANSI-SQL 스크립트](https://github.com/Minji-Ko/portfolio/blob/main/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/document/1%EC%A1%B0%20%EC%97%85%EB%AC%B4%20SQL%20(%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%BF%BC%EB%A6%AC%EB%AC%B8).docx)
-- [오브젝트 스크립트](https://github.com/Minji-Ko/portfolio/blob/main/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/document/1%EC%A1%B0%20DB%20%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8%20%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8(PLSQL).docx)
--[발표자료](https://github.com/Minji-Ko/portfolio/blob/main/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/document/1%EC%A1%B0%20%EC%8C%8D%EC%9A%A9%EA%B5%90%EC%9C%A1%EC%84%BC%ED%84%B0%EA%B4%80%EB%A6%AC%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EB%B0%9C%ED%91%9C%20%EC%B5%9C%EC%A2%85%20PPT.pdf)
-- [요악문서](https://github.com/Minji-Ko/portfolio/blob/main/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/document/1%EC%A1%B0%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%9A%94%EC%95%BD%EB%B3%B8.docx)
+- [요구분석서](https://github.com/Minji-Ko/portfolio/blob/main/ITAcademy/%EB%AC%B8%EC%84%9C/1.%20%EC%9A%94%EA%B5%AC%EB%B6%84%EC%84%9D%EC%84%9C.pdf)
+- [순서도](https://github.com/Minji-Ko/portfolio/blob/main/ITAcademy/%EB%AC%B8%EC%84%9C/2.%20%EC%88%9C%EC%84%9C%EB%8F%84.png)
+- [DDL 정의서](https://github.com/Minji-Ko/portfolio/blob/main/ITAcademy/%EB%AC%B8%EC%84%9C/4.%20DDL%EC%A0%95%EC%9D%98%EC%84%9C%20.pdf)
+- [ANSI-SQL 스크립트](https://github.com/Minji-Ko/portfolio/blob/main/ITAcademy/%EB%AC%B8%EC%84%9C/5.%20ANSI-SQL.pdf)
+- [오브젝트 스크립트](https://github.com/Minji-Ko/portfolio/blob/main/ITAcademy/%EB%AC%B8%EC%84%9C/6.%20PLSQL.pdf)
+- [인덱스 스크립트](https://github.com/Minji-Ko/portfolio/blob/main/ITAcademy/%EB%AC%B8%EC%84%9C/7.%20%EC%9D%B8%EB%8D%B1%EC%8A%A4%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8.pdf)
+-[발표자료](https://github.com/Minji-Ko/portfolio/blob/main/ITAcademy/%EB%AC%B8%EC%84%9C/8.%20%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C.pdf)
+- [요악문서](https://github.com/Minji-Ko/portfolio/blob/main/ITAcademy/%EB%AC%B8%EC%84%9C/9.%20%EC%9A%94%EC%95%BD%EB%B3%B8.pdf)

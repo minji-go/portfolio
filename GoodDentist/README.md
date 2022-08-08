@@ -191,8 +191,14 @@ public void waiting() {
 </br>
 
 ## 6. 구현 화면
+<img src="https://github.com/Minji-Ko/portfolio/blob/main/GoodDentist/%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EC%B4%88%EA%B8%B0%ED%99%94%EB%A9%B4/%EB%A9%94%EC%9D%B8%ED%99%94%EB%A9%B4.png" width="300" height="300"/> 
 
 
+- 환자
+<img src="https://github.com/Minji-Ko/portfolio/blob/main/GoodDentist/%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%ED%99%98%EC%9E%90/3.%20%EC%A7%84%EB%A3%8C%20%EC%98%88%EC%95%BD/3-1-2%20%EC%98%88%EC%95%BD%ED%95%98%EA%B8%B0%20%EC%8A%A4%EC%BC%80%EC%A4%84%20%EC%84%A0%ED%83%9D(2).png" width="300" height="300"/> <img src="https://github.com/Minji-Ko/portfolio/blob/main/GoodDentist/%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%ED%99%98%EC%9E%90/3.%20%EC%A7%84%EB%A3%8C%20%EC%98%88%EC%95%BD/3-1-7%20%EC%98%88%EC%95%BD%EB%8C%80%EA%B8%B0.png" width="300" height="300"/> <img src="https://github.com/Minji-Ko/portfolio/blob/main/GoodDentist/%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%ED%99%98%EC%9E%90/4.%20%EC%A7%84%EB%A3%8C%20%EC%83%81%EB%8B%B4/4-1-1%20FAQ%20%EC%A7%88%EB%AC%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8(1).png" width="300" height="300"/> <img src="https://github.com/Minji-Ko/portfolio/blob/main/GoodDentist/%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%ED%99%98%EC%9E%90/5.%20%EC%A7%84%EB%A3%8C%20%ED%9B%84%EA%B8%B0/5-2-3%20%EC%A7%84%EB%A3%8C%20%ED%9B%84%EA%B8%B0%20%EC%9E%91%EC%84%B1%20%ED%9B%84%20%EC%A1%B0%ED%9A%8C%20%EC%8B%9C%20%EB%B0%98%EC%98%81.png" width="300" height="300"/> 
+
+- 관리자
+<img src="https://github.com/Minji-Ko/portfolio/blob/main/GoodDentist/%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B4%80%EB%A6%AC%EC%9E%90/%EC%A7%84%EB%A3%8C%20%EC%A0%95%EB%B3%B4%20%EC%9E%91%EC%84%B1.png" width="300" height="300"/> <img src="https://github.com/Minji-Ko/portfolio/blob/main/GoodDentist/%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B4%80%EB%A6%AC%EC%9E%90/%EC%A7%84%EB%A3%8C%20%EC%A0%95%EB%B3%B4%20%EA%B2%80%EC%83%89_%EC%83%81%EC%84%B8_%EC%A7%84%EB%8B%A8%EC%84%9C.png" width="300" height="300"/> <img src="https://github.com/Minji-Ko/portfolio/blob/main/GoodDentist/%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B4%80%EB%A6%AC%EC%9E%90/%EC%9E%AC%EA%B3%A0%EA%B4%80%EB%A6%AC_%EC%88%98%EB%9F%89%ED%99%95%EC%9D%B8.png" width="300" height="300"/> <img src="https://github.com/Minji-Ko/portfolio/blob/main/GoodDentist/%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B4%80%EB%A6%AC%EC%9E%90/%EB%A7%A4%EC%B6%9C%EC%95%A1%20%EC%A1%B0%ED%9A%8C.png" width="300" height="300"/> 
 
 ## 7. 회고 / 느낀점
 
@@ -218,10 +224,13 @@ public void waiting() {
 - 문제 : 프로그램 기능 수행 중에 에러가 발생하면 업무 코드의 문제인지 파일 데이터의 무결성 문제인지 알기 위해 많은 시간이 소요되었다.
 - 해결: CSV형식의 파일을 엑셀로 변환하여 시각적으로 확인하여 조금 더 발견하기 쉽도록 하였다. 그러나 여전히 프로그램이 검증하는게 아니라 RDBMS의 필요성을 느꼈다.
 
+
 ## 8. 문서 작업 자료
-- [기획서](https://github.com/Minji-Ko/portfolio/blob/main/%EC%BD%98%EC%86%94%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/document/1.%20%EA%B8%B0%ED%9A%8D%EC%84%9C.docx)
-- [요구분석서](https://github.com/Minji-Ko/portfolio/blob/main/%EC%BD%98%EC%86%94%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/document/2.%20%EC%9A%94%EA%B5%AC%20%EB%B6%84%EC%84%9D%EC%84%9C.docx)
-- [순서도](https://github.com/Minji-Ko/portfolio/blob/main/%EC%BD%98%EC%86%94%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/document/3.%20%EC%88%9C%EC%84%9C%EB%8F%84.png)
-- [화면설계서](https://github.com/Minji-Ko/portfolio/blob/main/%EC%BD%98%EC%86%94%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/document/4.%20%ED%99%94%EB%A9%B4%EC%84%A4%EA%B3%84%EC%84%9C.pptx)
-- [기능명세서](https://github.com/Minji-Ko/portfolio/blob/main/%EC%BD%98%EC%86%94%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/document/5.%20%EA%B8%B0%EB%8A%A5%EB%AA%85%EC%84%B8%EC%84%9C.docx)
-- [요악문서](https://github.com/Minji-Ko/portfolio/blob/main/%EC%BD%98%EC%86%94%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/document/8.%20%EC%9A%94%EC%95%BD%EB%AC%B8%EC%84%9C.pdf)
+- [기획서](https://github.com/Minji-Ko/portfolio/blob/main/GoodDentist/%EB%AC%B8%EC%84%9C/1.%20%EA%B8%B0%ED%9A%8D%EC%84%9C.pdf)
+- [요구분석서](https://github.com/Minji-Ko/portfolio/blob/main/GoodDentist/%EB%AC%B8%EC%84%9C/2.%20%EC%9A%94%EA%B5%AC%EB%B6%84%EC%84%9D%EC%84%9C.pdf)
+- [순서도](https://github.com/Minji-Ko/portfolio/blob/main/GoodDentist/%EB%AC%B8%EC%84%9C/3.%20%EC%88%9C%EC%84%9C%EB%8F%84.png)
+- [화면설계서](https://github.com/Minji-Ko/portfolio/blob/main/GoodDentist/%EB%AC%B8%EC%84%9C/4.%20%ED%99%94%EB%A9%B4%EC%84%A4%EA%B3%84%EC%84%9C.pdf)
+- [기능명세서](https://github.com/Minji-Ko/portfolio/blob/main/GoodDentist/%EB%AC%B8%EC%84%9C/5.%20%EA%B8%B0%EB%8A%A5%EB%AA%85%EC%84%B8%EC%84%9C.pdf)
+- [발표자료](https://github.com/Minji-Ko/portfolio/blob/main/GoodDentist/%EB%AC%B8%EC%84%9C/7.%20%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C.pdf)
+- [요악문서](https://github.com/Minji-Ko/portfolio/blob/main/GoodDentist/%EB%AC%B8%EC%84%9C/8.%20%EC%9A%94%EC%95%BD%EB%AC%B8%EC%84%9C.pdf)
+

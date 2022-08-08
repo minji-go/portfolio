@@ -69,7 +69,7 @@
 </br>
 
 ## 6. 구현 화면
-
+ <img src="https://github.com/Minji-Ko/portfolio/blob/main/MJShoes/%EA%B5%AC%ED%98%84%ED%99%94%EB%A9%B4/%EC%9E%A5%EB%B0%94%EA%B5%AC%EB%8B%88.png" width="300" height="300"/> <img src="https://github.com/Minji-Ko/portfolio/blob/main/MJShoes/%EA%B5%AC%ED%98%84%ED%99%94%EB%A9%B4/%EC%A3%BC%EB%AC%B8%EB%82%B4%EC%97%AD.png" width="300" height="300"/> <img src="https://github.com/Minji-Ko/portfolio/blob/main/MJShoes/%EA%B5%AC%ED%98%84%ED%99%94%EB%A9%B4/%EC%A3%BC%EB%AC%B8%EC%83%81%EC%84%B8%EB%82%B4%EC%97%AD%EC%A1%B0%ED%9A%8C.png" width="300" height="300"/><img src="https://github.com/Minji-Ko/portfolio/blob/main/MJShoes/%EA%B5%AC%ED%98%84%ED%99%94%EB%A9%B4/%EC%A3%BC%EB%AC%B8%EC%B2%98%EB%A6%AC%ED%98%84%ED%99%A9.png" width="300" height="300"/><img src="https://github.com/Minji-Ko/portfolio/blob/main/MJShoes/%EA%B5%AC%ED%98%84%ED%99%94%EB%A9%B4/%EC%A7%84%ED%96%89%EC%A4%91%EC%9D%B8%EC%A3%BC%EB%AC%B8%ED%98%84%ED%99%A9.png" width="300" height="300"/>
 
 
 ## 7. 회고 / 느낀점
@@ -90,9 +90,8 @@
 
 
 ## 8. 문서 작업 자료
-- [요구분석서]()
-- [순서도]()
-- [DDL 정의서]()
-- [ANSI-SQL 스크립트]()
-- [오브젝트 스크립트]()
-- [요악문서]()
+- [요구분석서](https://github.com/Minji-Ko/portfolio/blob/main/MJShoes/%EB%AC%B8%EC%84%9C/1.%20%EC%9A%94%EA%B5%AC%EB%B6%84%EC%84%9D%EC%84%9C.pdf)
+- [DDL 정의서](https://github.com/Minji-Ko/portfolio/blob/main/MJShoes/%EB%AC%B8%EC%84%9C/3.%20DDL%EC%A0%95%EC%9D%98%EC%84%9C%20.pdf)
+- [ANSI-SQL](https://github.com/Minji-Ko/portfolio/tree/main/MJShoes/%EB%AC%B8%EC%84%9C/5.%20ANSI-SQL)
+- [PLSQL](https://github.com/Minji-Ko/portfolio/tree/main/MJShoes/%EB%AC%B8%EC%84%9C/6.%20PLSQL)
+- [요악문서](https://github.com/Minji-Ko/portfolio/blob/main/MJShoes/%EB%AC%B8%EC%84%9C/7.%20%EC%9A%94%EC%95%BD%EB%B3%B8.pdf)

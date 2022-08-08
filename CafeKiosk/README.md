@@ -347,7 +347,7 @@ private static String findMaxSeq_cmlist() {
 </br>
 
 ## 6. 구현 화면
-
+ <img src="https://github.com/Minji-Ko/portfolio/blob/main/CafeKiosk/%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EB%A9%94%EC%9D%B8%ED%99%94%EB%A9%B4.png" width="300" height="400"/> <img src="https://github.com/Minji-Ko/portfolio/blob/main/CafeKiosk/%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B3%A0%EA%B0%9D/%EB%B9%A0%EB%A5%B8%20%EC%A3%BC%EB%AC%B8.PNG" width="300" height="400"/> <img src="https://github.com/Minji-Ko/portfolio/blob/main/CafeKiosk/%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B3%A0%EA%B0%9D/%EC%9D%BC%EB%B0%98%20%EC%A3%BC%EB%AC%B8-7.%ED%86%A0%ED%95%91%20%EC%98%B5%EC%85%98%20%EC%84%A0%ED%83%9D.PNG" width="300" height="400"/>  <img src="https://github.com/Minji-Ko/portfolio/blob/main/CafeKiosk/%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B3%A0%EA%B0%9D/%EC%9D%BC%EB%B0%98%20%EC%A3%BC%EB%AC%B8-10.%EA%B2%B0%EC%A0%9C%20%EC%88%98%EB%8B%A8%20%EC%84%A0%ED%83%9D(%EB%B9%A0%EB%A5%B8%20%EC%A3%BC%EB%AC%B8%EB%8F%84%20%EB%8F%99%EC%9D%BC).PNG" width="300" height="400"/> <img src="https://github.com/Minji-Ko/portfolio/blob/main/CafeKiosk/%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B3%A0%EA%B0%9D/%EC%9D%BC%EB%B0%98%20%EC%A3%BC%EB%AC%B8-9.%EC%9E%A5%EB%B0%94%EA%B5%AC%EB%8B%88%EC%97%90%20%EC%B6%94%EA%B0%80%ED%95%9C%20%EB%A9%94%EB%89%B4%20%ED%99%95%EC%9D%B8.PNG" width="300" height="400"/> <!--관리자--><img src="https://github.com/Minji-Ko/portfolio/blob/main/CafeKiosk/%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B4%80%EB%A6%AC%EC%9E%90/%EA%B4%80%EB%A6%AC%EC%9E%90%20%EB%A9%94%EC%9D%B8%ED%99%94%EB%A9%B4.png" width="300" height="400"/>  <img src="https://github.com/Minji-Ko/portfolio/blob/main/CafeKiosk/%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B4%80%EB%A6%AC%EC%9E%90/%EB%A9%94%EB%89%B4%20%EA%B4%80%EB%A6%AC/%EB%A9%94%EB%89%B4%EA%B4%80%EB%A6%AC-%EB%A9%94%EB%89%B4%EC%88%98%EC%A0%95-2.%EB%A9%94%EB%89%B4%EB%AA%85%20%EC%9E%85%EB%A0%A5.png" width="300" height="400"/>  <img src="https://github.com/Minji-Ko/portfolio/blob/main/CafeKiosk/%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B4%80%EB%A6%AC%EC%9E%90/%ED%8C%90%EB%A7%A4%20%ED%86%B5%EA%B3%84/%ED%8C%90%EB%A7%A4%20%ED%86%B5%EA%B3%84-3.%20%EC%84%A0%ED%83%9D%ED%95%9C%20%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC%20%ED%8C%90%EB%A7%A4%ED%86%B5%EA%B3%84%20%EC%A1%B0%ED%9A%8C%20%ED%99%94%EB%A9%B4.PNG" width="300" height="400"/>  <img src="https://github.com/Minji-Ko/portfolio/blob/main/CafeKiosk/%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/%EA%B4%80%EB%A6%AC%EC%9E%90/%ED%92%88%EC%A0%88%20%EA%B4%80%EB%A6%AC/%ED%92%88%EC%A0%88%20%EA%B4%80%EB%A6%AC-2.%ED%92%88%EC%A0%88%20or%20%ED%8C%90%EB%A7%A4%20%EC%A4%91%20or%20%EC%83%81%EC%9C%84%20%EB%A9%94%EB%89%B4%20%EC%84%A0%ED%83%9D%20%ED%99%94%EB%A9%B4.PNG" width="300" height="400"/> 
 
 
 ## 7. 회고 / 느낀점
@@ -375,9 +375,6 @@ MenuCategory.java와 같이 다른 기능에서 공통으로 사용되는 코드
 
 
 ## 8. 문서 작업 자료
-- [기획서]()
-- [요구분석서]()
-- [순서도](https://github.com/Minji-Ko/portfolio/blob/main/%EC%BD%98%EC%86%94%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/document/3.%20%EC%88%9C%EC%84%9C%EB%8F%84.png)
-- [화면설계서](https://github.com/Minji-Ko/portfolio/blob/main/%EC%BD%98%EC%86%94%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/document/4.%20%ED%99%94%EB%A9%B4%EC%84%A4%EA%B3%84%EC%84%9C.pptx)
-- [기능명세서](https://github.com/Minji-Ko/portfolio/blob/main/%EC%BD%98%EC%86%94%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/document/5.%20%EA%B8%B0%EB%8A%A5%EB%AA%85%EC%84%B8%EC%84%9C.docx)
-- [요악문서](https://github.com/Minji-Ko/portfolio/blob/main/%EC%BD%98%EC%86%94%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/document/8.%20%EC%9A%94%EC%95%BD%EB%AC%B8%EC%84%9C.pdf)
+- [요구분석서](https://github.com/Minji-Ko/portfolio/blob/main/CafeKiosk/%EB%AC%B8%EC%84%9C/1.%20%EC%9A%94%EA%B5%AC%EB%B6%84%EC%84%9D%EC%84%9C.pdf)
+- [기능명세서](https://github.com/Minji-Ko/portfolio/blob/main/CafeKiosk/%EB%AC%B8%EC%84%9C/2.%20%EA%B8%B0%EB%8A%A5%EB%AA%85%EC%84%B8%EC%84%9C.pdf)
+- [요악문서](https://github.com/Minji-Ko/portfolio/blob/main/CafeKiosk/%EB%AC%B8%EC%84%9C/5.%20%EC%9A%94%EC%95%BD%EB%B3%B8.pdf)
