@@ -378,3 +378,4 @@ MenuCategory.java와 같이 다른 기능에서 공통으로 사용되는 코드
 - [요구분석서](https://github.com/Minji-Ko/portfolio/blob/main/CafeKiosk/%EB%AC%B8%EC%84%9C/1.%20%EC%9A%94%EA%B5%AC%EB%B6%84%EC%84%9D%EC%84%9C.pdf)
 - [기능명세서](https://github.com/Minji-Ko/portfolio/blob/main/CafeKiosk/%EB%AC%B8%EC%84%9C/2.%20%EA%B8%B0%EB%8A%A5%EB%AA%85%EC%84%B8%EC%84%9C.pdf)
 - [요악문서](https://github.com/Minji-Ko/portfolio/blob/main/CafeKiosk/%EB%AC%B8%EC%84%9C/5.%20%EC%9A%94%EC%95%BD%EB%B3%B8.pdf)
+
