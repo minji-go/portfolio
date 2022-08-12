@@ -506,9 +506,20 @@ public class Reservation extends HttpServlet {
 </br>
 
 ## 6. 구현 화면
-
+<img src="https://github.com/Minji-Ko/portfolio/blob/main/Fanimal/%EA%B5%AC%ED%98%84%ED%99%94%EB%A9%B4/%EB%A9%94%EC%9D%B8%ED%99%94%EB%A9%B4.png"width="400" height="300"/> <img src="https://github.com/Minji-Ko/portfolio/blob/main/Fanimal/%EA%B5%AC%ED%98%84%ED%99%94%EB%A9%B4/%EB%82%B4%EB%B0%98%EB%A0%A4%EB%8F%99%EB%AC%BC.png"width="400" height="300"/> <img src="https://github.com/Minji-Ko/portfolio/blob/main/Fanimal/%EA%B5%AC%ED%98%84%ED%99%94%EB%A9%B4/%EB%B3%91%EC%9B%90%EB%A6%AC%EC%8A%A4%ED%8A%B8.png"width="400" height="300"/> <img src="https://github.com/Minji-Ko/portfolio/blob/main/Fanimal/%EA%B5%AC%ED%98%84%ED%99%94%EB%A9%B4/%EB%B3%91%EC%9B%90%EC%83%81%EC%84%B8%EB%B3%B4%EA%B8%B0.png"width="400" height="300"/> <img src="https://github.com/Minji-Ko/portfolio/blob/main/Fanimal/%EA%B5%AC%ED%98%84%ED%99%94%EB%A9%B4/%EB%B3%91%EC%9B%90%EC%98%88%EC%95%BD%ED%95%98%EA%B8%B0.png"width="400" height="300"/> <img src="https://github.com/Minji-Ko/portfolio/blob/main/Fanimal/%EA%B5%AC%ED%98%84%ED%99%94%EB%A9%B4/%EA%B8%B0%EC%97%85%EB%93%B1%EB%A1%9D.png"width="400" height="300"/> <img src="https://github.com/Minji-Ko/portfolio/blob/main/Fanimal/%EA%B5%AC%ED%98%84%ED%99%94%EB%A9%B4/%EB%B3%91%EC%9B%90%EB%AC%B8%EC%9D%98%EA%B2%8C%EC%8B%9C%ED%8C%90.png"width="400" height="300"/> 
 
 ## 7. 회고 / 느낀점
+잘한 점
+- 모든 페이지에 공통된 형식의 디자인을 적용하여 통일성 부여했습니다.
+- 예약결과가 예약내역  및 일정표에 등록되거나 처방전 작성시 보호자가 데이터 조회 및 케어일기 작성 등으로 데이터의 활용도를 높였습니다.
+- 목록이나 셀렉트박스를 이용하는 것들은 모두 erd 에서 밖으로 빼서 데이터를 가져오는 데 편리함이 있었습니다.
+
+문제점 및 보완점
+- 시간부족으로 인한 설계한 기능을 모두 구현하기 어려웠습니다.
+- 개별적 DB사용으로 인한 데이터의 불일치로 발생할 수 있는 오류를 보완할 필요가 있었습니다.
+- 깃허브로 코드를 공유하지않아 취합 시 불편함이 있었습니다.
+- 더미데이터가 부족해 테스트하는데 불편함이 있었습니다.
+
 
 
 ## 8. 문서 작업 자료
