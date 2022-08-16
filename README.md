@@ -7,7 +7,6 @@
 personal prortfolio
 
 # Contact
-- 연락처: 010-2942-9972
 - 이메일: kohminji10@gmail.com
 - 깃헙: https://github.com/Minji-Ko
 
